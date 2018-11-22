@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1283B621A2D7660014C019 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1283B521A2D7660014C019 /* CustomTableViewCell.swift */; };
+		2D1283B821A2DC270014C019 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1283B721A2DC270014C019 /* Movie.swift */; };
+		2D1283BA21A3089E0014C019 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1283B921A3089E0014C019 /* SearchViewController.swift */; };
+		2D1283BE21A414E70014C019 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1283BD21A414E70014C019 /* HTTPHandler.swift */; };
+		2D1283C021A4155C0014C019 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1283BF21A4155C0014C019 /* JSONParser.swift */; };
+		2D1283C221A415880014C019 /* MovieDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1283C121A415880014C019 /* MovieDataProcessor.swift */; };
 		2DE4537F2195D2CD00D3EF72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE4537E2195D2CD00D3EF72 /* AppDelegate.swift */; };
 		2DE453812195D2CD00D3EF72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE453802195D2CD00D3EF72 /* ViewController.swift */; };
 		2DE453842195D2CD00D3EF72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE453822195D2CD00D3EF72 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D1283B521A2D7660014C019 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		2D1283B721A2DC270014C019 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2D1283B921A3089E0014C019 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2D1283BD21A414E70014C019 /* HTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
+		2D1283BF21A4155C0014C019 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		2D1283C121A415880014C019 /* MovieDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataProcessor.swift; sourceTree = "<group>"; };
 		2DE4537B2195D2CD00D3EF72 /* favorite-movies-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "favorite-movies-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE4537E2195D2CD00D3EF72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DE453802195D2CD00D3EF72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +50,9 @@
 		2DE453722195D2CD00D3EF72 = {
 			isa = PBXGroup;
 			children = (
+				2D1283C121A415880014C019 /* MovieDataProcessor.swift */,
+				2D1283BF21A4155C0014C019 /* JSONParser.swift */,
+				2D1283BD21A414E70014C019 /* HTTPHandler.swift */,
 				2DE4537D2195D2CD00D3EF72 /* favorite-movies-app */,
 				2DE4537C2195D2CD00D3EF72 /* Products */,
 			);
@@ -60,6 +75,9 @@
 				2DE453852195D2D000D3EF72 /* Assets.xcassets */,
 				2DE453872195D2D000D3EF72 /* LaunchScreen.storyboard */,
 				2DE4538A2195D2D000D3EF72 /* Info.plist */,
+				2D1283B521A2D7660014C019 /* CustomTableViewCell.swift */,
+				2D1283B721A2DC270014C019 /* Movie.swift */,
+				2D1283B921A3089E0014C019 /* SearchViewController.swift */,
 			);
 			path = "favorite-movies-app";
 			sourceTree = "<group>";
@@ -135,7 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1283BA21A3089E0014C019 /* SearchViewController.swift in Sources */,
+				2D1283B621A2D7660014C019 /* CustomTableViewCell.swift in Sources */,
+				2D1283C021A4155C0014C019 /* JSONParser.swift in Sources */,
 				2DE453812195D2CD00D3EF72 /* ViewController.swift in Sources */,
+				2D1283B821A2DC270014C019 /* Movie.swift in Sources */,
+				2D1283C221A415880014C019 /* MovieDataProcessor.swift in Sources */,
+				2D1283BE21A414E70014C019 /* HTTPHandler.swift in Sources */,
 				2DE4537F2195D2CD00D3EF72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
